@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="C:\Users\comer\Desktop\Loui\Code\img\favico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="cadaluno.css">
+    <title>Cadastrar</title>
+</head>
+
+<body>
+    <ul>
+        <li><a class="home" href="index.html">Home</a></li>
+        <li style="float: right;"><a class="active" href="#">Login/Logout</a></li>
+        <li style="float: right;"><a href="#">Perfil</a></li>
+    </ul>
+    <div class="bgimg">
+        <div class="centerdi">
+            <div class="container">
+                <div class="halfdiv1">
+                    <div>
+                        <form class="esteticainput">
+                            <label for="nome">
+                                <input type="text" placeholder="Nome completo"></input>
+                            </label>
+                                <label for="Masc">M
+                                    <input type="radio" id="radio" name="sexo" value="Masculino"></input>
+                                </label>
+                            
+
+                            <label for="Fem">F
+                                <input type="radio" id="radio" name="sexo" value="Feminino"></input>
+                            </label>
+
+                            <label for="Nascimento">
+                                <input type="date" id="Nascimento" name="datanascimento">
+                            </label>
+
+                            <label for="cpf">
+                                <input type="text" placeholder="CPF" id="cpf" maxlength="11">
+                                <!--Pra deixar com pontuação automatica enquanto digita precisa de JS-->
+                            </label><br>
+
+                            <label for="telefone">
+                                <input type="tel" id="tel" name="telefone" placeholder="Telefone">
+                            </label>
+
+                            <label for="telefonealt">
+                                <input type="tel" id="tel" name="telefonealt" placeholder="Telefone Alt">
+                            </label>
+
+                            CEP(obs cod)<br> <!--Precisa de API pra puxar automatico / confirmar se vamos colocar-->
+
+                            <label for="endereco">
+                                <input type="text" placeholder="Endereço" id="endereco" name="endereco">
+                            </label>
+
+                            <label for="numero">
+                                <input type="text" placeholder="1234" id="numero">
+                            </label><br>
+
+                            <label for="complemento">
+                                <input type="text" placeholder="Complemento" id="complemento" name="complemento">
+                            </label>
+
+                            <label for="tipocadastro">
+                                <select id="tipocadastro">
+                                    <option value="Aluno">Aluno</option>
+                                    <option value="Funcionário">Funcionário</option>
+                                    <option value="Admin">Admin</option>
+                                </select>
+                            </label><br>
+
+                            <label for="obs" id="obscad" name="obscad">
+                                <textarea id="obscadastro" name="obscadastro" placeholder="Obs..."></textarea>
+                            </label>
+
+                        </form>
+                    </div>
+                </div>
+                <div class="halfdiv2">
+                    <div>CRIAR MAIS DIV PROS PLANOS</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
