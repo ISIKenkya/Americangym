@@ -1,0 +1,128 @@
+body {
+    height: 97.85%;
+    margin: 0;
+
+}
+
+.container {
+    display: flex;
+    height: 97.85%;
+
+}
+
+.half {
+    flex: 1;
+}
+
+.halfdiv1 {
+    background-color: red;
+    transform: translate(7%, 4%);
+    background-image: linear-gradient(27deg, #B31942 50%, rgb(10, 49, 97) 50%);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 5px 10px 5px rgb(5, 29, 59);
+    width: 600px;
+    height: auto;
+
+}
+
+form {
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="date"],
+input[type="select"],
+input[type="radio"] {
+    margin-right: 35px;
+    margin-bottom: 30px;
+    font-size: 0.75rem;
+    border: 2px #818CF8 solid;
+    border-radius: 5px;
+    background: #ffffff;
+    width: 60%;
+    height: 35px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+input#cpf {
+    width: 32%;
+}
+
+input#radio {
+    width: 3%;
+}
+
+input#Nascimento {
+    width: 100px;
+
+    ;
+}
+
+input#numero {
+    width: 50px;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea {
+    margin-right: 35px;
+    margin-bottom: 10px;
+    font-size: 0.75rem;
+    border: 2px #818CF8 solid;
+    border-radius: 5px;
+    background: #ffffff;
+    width: 60%;
+    height: 100px;
+}
+
+select {
+    margin-right: 35px;
+    margin-bottom: 10px;
+    font-size: 0.75rem;
+    border: 2px #818CF8 solid;
+    border-radius: 5px;
+    background: #ffffff;
+    width: 26.5%;
+    height: 35px;
+}
+
+.esteticainput label.nome,
+label.Fem,
+label.Masc,
+label.Nascimento,
+label.CPF,
+label.telefone,
+label.email,
+label.endereco,
+label.numero,
+label.plano {
+    font-size: 0.75rem;
+    color: #818CF8;
+    font-weight: 700;
+    position: relative;
+    top: 0.5rem;
+    margin: 0 0 0 7px;
+    padding: 0 3px;
+    background: #e8e8e8;
+    width: fit-content;
+}
+
+.halfdiv2 {
+   
+margin-left: 200px;
+margin-top: 5%;
+
+}
+
+.submit {
+    
+    width: 100px;
+    height: 30px;
+}

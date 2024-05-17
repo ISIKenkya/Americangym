@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="C:\Users\comer\Desktop\Loui\Code\img\favico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="./login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    </div>
+    <ul>
+        <li><a class="home" href="index.html">Início</a></li>
+        <li><a href="./alunos/alunos.php">Alunos</a></li>
+        <li><a href="./financeiro/financeiro.html">Financeiro</a></li>
+        <li><a href="./funcionarios/funcionarios.html">Funcionários</a></li>
+        <li><a class="active" href="./login/login.html">Sair</a></li>
+        <li style="float: right;"><a  class="cadasb" name="cadasb" value="Cadastrar" href= "cadastro.html">Cadastrar</a></li>
+    </ul>
+
+    <div class="bgimg">
+        <div class="centerdiv">
+            <img src="img\ag.jpg" id="fotoperfil">
+            <h2>Entrar</h2>
+            <form action="./testelogin.php" method="POST">
+                <div>
+                    <input type="text" name="login" class="input" placeholder="Login">
+                </div>
+                <br>
+                <div>
+                    <input type="password" name="senha" class="input" placeholder="Senha">
+                </div>
+                <br>
+                <div>
+                    <button type="submit" class="submit" name="submit" id="submit"> Entrar </button>
+                </div>
+            </form> <br>
+            <div class="esqueci-senha">
+                <h4>Esqueci a senha.</h4>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+*{
+ margin: 0;
+ padding: 0;
+ 
+}
+
+#fotoperfil{
+ width: 120px;
+ height: 120px;
+ border-radius: 50%;
+ position: relative;
+ top: -60px;
+ left: calc( (350px - 120px) / 2 )
+}
+
+h2{
+ text-align: center;
+ color: white;
+ text-transform: uppercase;
+ font-size: 2em;
+ word-spacing: 10px;
+ margin-top: -50px;
+ margin-bottom: 50px;
+ text-shadow: -2px 2px 1px #0A84C6;
+}
+
+.input{
+ width: calc(100% - 40px);
+ height: 30px;
+ display: block;
+ margin: auto;
+ padding: 0 10px;
+ box-sizing: border-box;
+}
+
+::placeholder{
+ letter-spacing: 2px;
+ color: black;
+}
+
+button{
+ width: calc(100% - 40px);
+ height: 30px;
+ display: block;
+ margin: auto;
+ color: white;
+ background-color: #0A3161;
+ border: none;
+ 
+}
+
+.entrar :hover 
+{
+ background-color: #0A84C6;
+}
+
+.esqueci-senha{
+ width: calc(100% - 40px);
+ line-height: 30px;
+ display: block;
+ margin: auto;
+ color: white;
+
+ font-size: 0.8em;
+box-sizing: border-box;
+
+}

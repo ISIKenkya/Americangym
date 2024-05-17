@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="C:\Users\comer\Desktop\Loui\Code\img\favico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <!-- <link rel="stylesheet" href="cadaluno.css"> -->
+    <title>Cadastrar</title>
+</head>
+
+<body>
+    <ul>
+        <li><a class="home" href="../index.html">Início</a></li>
+            <li><a href="../alunos/alunos.php">Alunos</a></li>
+            <li><a href="../financeiro/financeiro.html">Financeiro</a></li>
+            <li><a href="../funcionarios/funcionarios.html">Funcionários</a></li>
+            <li><a class="active" href="../assets/php/sair.php">Sair</a></li>
+    </ul>
+    <div class="bgimg">
+        <div class="centerdi">
+            <div class="container">
+                <div class="halfdiv1">
+                    <div>
+                        <form class="esteticainput" action="cadaluno.php" method="POST">
+                            <label for="nome">
+                                <input type="text" name="nome" placeholder="Nome completo"></input>
+                            </label>
+                            <label for="Masc">M
+                                <input type="radio" id="radio" name="sexo" value="Masculino"></input>
+                            </label>
+
+
+                            <label for="Fem">F
+                                <input type="radio" id="radio" name="sexo" value="Feminino"></input>
+                            </label>
+
+                            <label for="Nascimento">
+                                <input type="date" id="Nascimento" name="nascimento">
+                            </label>
+
+                            <label for="cpf">
+                                <input type="text" name="cpf" placeholder="CPF" id="cpf" maxlength="11">
+                                <!--Pra deixar com pontuação automatica enquanto digita precisa de JS-->
+                            </label><br>
+
+                            <label for="telefone">
+                                <input type="tel" id="tel" name="telefone" placeholder="Telefone">
+                            </label>
+
+                            <label for="email">
+                                <input type="tel" id="tel" name="email" placeholder="E-mail">
+                            </label>
+
+                            CEP(obs cod)<br> <!--Precisa de API pra puxar automatico / confirmar se vamos colocar-->
+
+                            <label for="endereco">
+                                <input type="text" placeholder="Endereço" id="endereco" name="endereco">
+                            </label>
+
+                            <label for="numero">
+                                <input type="text" name="numende" placeholder="1234" id="numero">
+                            </label><br>
+
+                            <label for="plano">
+                                <select  placeholder="plano" id="plano" name="plano">
+                                    <option value="Mensal">Mensal</option>
+                                    <option value="Trimestral">Trimestral</option>
+                                    <option value="Semestral">Semestral</option>
+                                    <option value="Anual">Anual</option>
+                                </select>
+                            </label>
+
+                            <label for="tipocadastro">
+                                <select id="tipocadastro" name="tipocadastro">
+                                    <option value="Aluno">Aluno</option>
+                                    <option value="Funcionário">Funcionário</option>
+                                    <option value="Admin">Admin</option>
+                                </select>
+                            </label><br>
+
+                            <label for="obs" id="obscad" name="obscad">
+                                <textarea id="obscadastro" name="obscadastro" placeholder="Obs..."></textarea>
+                            </label>
+
+                            <input type="submit" class="submit" name="submit" id="submit" value="Salvar">
+
+                        </form>
+                    </div>
+                </div>
+                <div class="halfdiv2">
+                    <img src="img\agsembg.png"></img>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
